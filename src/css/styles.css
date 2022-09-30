@@ -419,9 +419,6 @@ footer {
 
 /*  sessão Contato  */
 
-.contact .title::after {
-  content: "Fale conosco";
-}
 .contact .contact-content .column {
   width: calc(50% - 30px);
 }
@@ -455,7 +452,7 @@ footer {
 }
 .contact .contact-content .row ion-icon {
   font-size: 25px;
-  color: #00804b;
+  color: #71d96a;
 }
 .contact .rigth form .fields {
   display: flex;
@@ -498,7 +495,7 @@ footer {
 .contact .rigth form .button button {
   width: 100%;
   height: 100%;
-  border: 2px solid #00804b;
+  border: 2px solid #71d96a;
   background: #00804b;
   color: #fff;
   font-size: 20px;
@@ -508,10 +505,25 @@ footer {
   transition: all 0.3s ease;
 }
 .contact .rigth form .button button:hover {
-  color: #00804b;
+  color: #71d96a;
   background: none;
 }
 
+.contact {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.7)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url(../img/fundo.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/fundo.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 /*  sessão footer  */
 footer {
   background: #fff;
