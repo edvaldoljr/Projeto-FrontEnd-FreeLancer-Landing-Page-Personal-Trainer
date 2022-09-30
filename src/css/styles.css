@@ -65,8 +65,19 @@ html {
 /*  Home   inicio  */
 .home {
   display: flex;
-  background: url(../img/tio.jpg) no-repeat;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.7)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url(../img/tio.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/tio.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   height: 100vh;
   color: rgb(136, 205, 230);
   min-height: 500px;
@@ -194,24 +205,29 @@ footer {
   left: auto;
   border: 2px solid #adb2b9;
   border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 111px -47px rgba(242, 234, 242, 0.47);
+  -moz-box-shadow: 10px 10px 111px -47px rgba(242, 234, 242, 0.47);
+  box-shadow: 10px 10px 111px -47px rgba(242, 234, 242, 0.47);
 }
 
 /* .ilustracaodomeurosto{
     border: 5px solid #adb2b9;
 } */
 
-
 .about {
-    text-align: center;
+  text-align: center;
+
+  /*background: url(../img/fundo.jpg) no-repeat;
+    background-size: cover; */
 }
 
 .about h2 {
-        font-size: 25px;
-        padding: 0.5rem;
-        display: inline-block;
-        color: #fff;
-        border-bottom: .3rem solid yellowgreen;
-        margin-bottom: 1.8rem;
+  font-size: 25px;
+  padding: 0.5rem;
+  display: inline-block;
+  color: #fff;
+  border-bottom: 0.3rem solid yellowgreen;
+  margin-bottom: 1.8rem;
 }
 
 .about .about-content .left {
@@ -275,74 +291,130 @@ footer {
 
 /* Sessão Services */
 .services {
-    min-height: 100vh;
-    text-align: center;
-    padding: 2% 6%;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2% 6%;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.7)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url(../img/fundo1.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/fundo1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
 }
 
 .services h1 {
-    font-size: 25px;
-    padding: 0.5rem;
-    display: inline-block;
-    color: #fff;
-    border-bottom: .3rem solid yellowgreen;
-    margin-bottom: 1.8rem;
-    
+  font-size: 25px;
+  padding: 0.5rem;
+  display: inline-block;
+  color: #fff;
+  border-bottom: 0.3rem solid #fff;
+  margin-bottom: 1.8rem;
 }
 
 .services .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
 .services .container .box {
-    width: 20rem;
-    height: 31rem;
-    margin: .5rem;
-    position: relative;
-    overflow: hidden;
+  width: 20rem;
+  height: 20rem;
+  margin: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #09090a;
+  -webkit-box-shadow: -1px -1px 114px 47px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -1px -1px 114px 47px rgba(0, 0, 0, 0.72);
+  box-shadow: -1px -1px 114px 47px rgba(0, 0, 0, 0.72);
 }
 
 .services .container .box img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .services .container .box .info {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    transform-origin: bottom;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transform-origin: bottom;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .services .container .box:hover .info {
-    transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 .services .container .box .info h3 {
-    font-size: 3rem;
-    color: yellowgreen;
-    margin-bottom: 1.2rem;
+  font-size: 3rem;
+  color: yellowgreen;
+  margin-bottom: 1.2rem;
 }
 
 .services .container .box .info p {
+  line-height: 2;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0 1rem;
+  margin-bottom: 1;
+}
 
-    line-height: 2;
-    color: #fff;
-    font-size: 1.1rem;
-    padding: 0 1rem;
-    margin-bottom: 1;
+/* sessãp banner */
+
+.banner {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.7)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url(../img/banner-bg.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.banner span {
+  font-size: 2rem;
+  color: #f00;
+}
+
+.banner h3 {
+  padding-top: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
+.banner p {
+  margin: 1rem auto;
+  max-width: 60rem;
+  font-size: 1.5rem;
+  color: #aaa;
+  line-height: 2;
 }
 
 /*  sessão Contato  */

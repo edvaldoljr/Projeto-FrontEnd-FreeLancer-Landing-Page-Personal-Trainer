@@ -26,13 +26,13 @@ $(document).ready(function() {
        });
   
        var typed = new Typed(".typing", {
-           strings:["Personal Trainer & Intrutor de ginastica"],
+           strings:["Personal Trainer e Instrutor de ginástica"],
            typeSpeed:100,
            backSpeed:60,
            loop:true
        });
        var typed = new Typed(".typing-2", {
-          strings:["Personal Trainer & Intrutor de ginastica"],
+          strings:["Personal Trainer e Instrutor de ginástica"],
           typeSpeed:100,
           backSpeed:60,
           loop:true
