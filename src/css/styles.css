@@ -72,9 +72,9 @@ html {
       from(rgba(0, 0, 0, 0.7)),
       to(rgba(0, 0, 0, 0.7))
     ),
-    url(../img/tio.jpg) no-repeat;
+    url(../img/tio1.jpg) no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../img/tio.jpg) no-repeat;
+    url(../img/tio1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -524,6 +524,12 @@ footer {
   background-position: center;
   background-attachment: fixed;
 }
+
+/*Sessão Redes sociais */
+
+
+
+
 /*  sessão footer  */
 footer {
   background: #fff;
