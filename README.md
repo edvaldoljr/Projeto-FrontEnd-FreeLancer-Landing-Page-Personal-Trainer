@@ -1,5 +1,7 @@
 # **Projeto Freelance Instrutor Físico**
 
+![](https://github.com/edvaldoljr/Projeto-FrontEnd-FreeLancer-Site-Personal-Trainer/blob/main/src/img/img-projeto.gif?raw=true)
+
 Com a nossa aplicação, os usuários teram acesso a um instrutor de ginástica altamente capacitado, pronto para lhe fornecer planos de treino personalizados e acompanhamento constante para garantir que você alcance seus objetivos de forma segura e eficaz.
 
 # **Desenvolvimento**
@@ -1192,8 +1194,6 @@ $(document).ready(function () {
 Temos o prazer de informar que o site está sendo hospedado com a empresa líder em hospedagem de sites, o Hostgator. Com seu excelente desempenho e suporte confiável, podemos garantir que a navegação em nosso site será uma experiência rápida e segura. Aproveitem e confiram todas as nossas funcionalidades e conteúdos!"
 
 ## Acesse o link e fique em forma: https://gymfitness.com.br/
-
-![](https://github.com/edvaldoljr/Projeto-FrontEnd-FreeLancer-Site-Personal-Trainer/blob/main/src/img/img-projeto.gif?raw=true)
 
 Se você estiver interessado em saber mais sobre o meu trabalho, fique a vontade para explorar o meu repositório. Estou sempre procurando maneiras de melhorar e evoluir, e adoraria ter a sua opinião.
 
