@@ -1193,7 +1193,7 @@ Temos o prazer de informar que o site está sendo hospedado com a empresa líder
 
 ## Acesse o link e fique em forma: https://gymfitness.com.br/
 
-
+![](https://github.com/edvaldoljr/Projeto-FrontEnd-FreeLancer-Site-Personal-Trainer/blob/main/src/img/img-projeto.gif?raw=true)
 
 Se você estiver interessado em saber mais sobre o meu trabalho, fique a vontade para explorar o meu repositório. Estou sempre procurando maneiras de melhorar e evoluir, e adoraria ter a sua opinião.
 
